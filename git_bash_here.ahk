@@ -60,10 +60,10 @@ OpenGbHere()
 
     IfInString full_path, \
     {
-        Run,  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git\Git Bash.lnk, %full_path%
+        Run,  ‪F:\Git\Git\git-bash.exe, %full_path%
     }
     else
     {
-        Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git\Git Bash.lnk --cd-to-home
+        Run, ‪F:\Git\Git\git-bash.exe --cd-to-home
     }
 }
